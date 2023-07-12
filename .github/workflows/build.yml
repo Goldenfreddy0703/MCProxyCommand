@@ -57,7 +57,3 @@ jobs:
           draft: false
           prerelease: false
           fail_on_unmatched_files: true
-
-      - name: Upload fabric-mod to modrinth
-        if: success()
-        run: gradle :fabric-mod:modrinth
